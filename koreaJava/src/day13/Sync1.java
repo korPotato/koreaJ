@@ -12,8 +12,8 @@ public class Sync1 {
 
 	}
 }
-// 식당화장실이 1개, 사람은 많다
-// 동시에 화장실을 이용할 순 없으니 한명이 사용하면 다른 한명은 대기를 시켜야지!
+//식당화장실이 1개, 사람은 많다
+//동시에 화장실을 이용할 순 없으니 한명이 사용하면 다른 한명은 대기를 시켜야지!
 class Toilet implements Runnable{
 	private int time;
 	@Override

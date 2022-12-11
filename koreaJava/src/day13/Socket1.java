@@ -10,23 +10,21 @@ import java.util.Scanner;
 
 public class Socket1 {
 	public static void main(String[] args) {
-// 한쪽이 접속이 안되는 경우 방화벽 문제인 경우도 있다.
+		// 한쪽이 접속이 안되는 경우 방화벽 문제인 경우도 있다.
 		// 소켓 : 프로그램 간 메시지 주고받기
 		//MyServer ms = new MyServer();
 		MyClient mc = new MyClient();
-		
+				
 		// 소켓통신을 하려면 같은 네트워크를 사용해야함
 		// 여러군데서 접속을 하게 하려면 클라우드 또는 웹 호스팅을 해야함(월드와일드웹에 등록을 해야함)
 		// ipconfig
 		// ip : 192.168.3.13
 		//ms.go(19000);
-		mc.go("192.168.3.20", 21000);
+		mc.go("192.168.3.20", 21000);		
 	}
 }
-
-
-// 소켓이라는 라이브러리를 통해서
-// TCP/ IP통신을 Socket으로 진행
+//소켓이라는 라이브러리를 통해서
+//TCP/ IP통신을 Socket으로 진행
 class MyServer {
 	// 들어오는 메시지 (수신)
 	InputStream is = null;

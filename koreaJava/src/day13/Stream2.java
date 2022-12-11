@@ -9,7 +9,7 @@ public class Stream2 {
 		FileCtrl fc = new FileCtrl();
 //		int result = fc.makeFile("C:\\java");
 //		System.out.println(result);
-		fc.delFile("C:\\java");
+		fc.delFile("C:\\java");		
 	}
 }
 

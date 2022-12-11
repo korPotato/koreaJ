@@ -13,12 +13,12 @@ public class Sync2 {
 		t2.start();
 		try {t2.join();} catch (InterruptedException e) {e.printStackTrace();}
 		t3.start();
-		t4.start();
+		t4.start();		
 	}
 }
 
-// 의상실 
-// 한 사람이 사용 중이면 다른 사람들은 대기를 해야한다. ---> 동기화
+//의상실 
+//한 사람이 사용 중이면 다른 사람들은 대기를 해야한다. ---> 동기화
 class Room implements Runnable{
 	private int time;
 

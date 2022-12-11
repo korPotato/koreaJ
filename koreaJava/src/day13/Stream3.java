@@ -2,7 +2,6 @@ package day13;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,7 +11,7 @@ public class Stream3 {
 	public static void main(String[] args) {
 		MyFileIO fio =new MyFileIO();
 //		fio.putText("C:\\java\\test.txt");
-		fio.readText("C\\java\\test.txt");
+		fio.readText("C\\java\\test.txt");		
 	}
 }
 

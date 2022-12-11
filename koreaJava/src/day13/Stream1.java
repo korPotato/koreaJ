@@ -12,7 +12,6 @@ public class Stream1 {
 		// \\2번을 하는 이유 : 문자열에서 특정 기호를 사용하기 위해선 앞에 \표시를 해줘야함 (ex) \' \" \\ \n \t
 	}
 }
-
 class FileFound {
 	public void go(String  path) {
 		System.out.println(path+"안에 있는 파일 검색");
